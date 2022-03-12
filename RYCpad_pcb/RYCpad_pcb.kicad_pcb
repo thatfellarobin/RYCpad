@@ -373,11 +373,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 851f3d61-ba3b-4e6e-abd4-cafa4d9b64cb)
     )
-    (fp_text user "${REFERENCE}" (at 2.84 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.84 0) (layer "F.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 1cc5480b-56b7-4379-98e2-ccafc88911a7)
     )
-    (fp_text user "K" (at -1.27 -1.8) (layer "F.Fab")
+    (fp_text user "K" (at -1.27 -1.8) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a8ad8bb-d9a9-4b2b-bc88-ea6fd2676d45)
     )
@@ -6158,7 +6158,17 @@
   (gr_line locked (start -37.575 -19.574999) (end -19.574999 -19.574999) (layer "Dwgs.User") (width 0.2) (tstamp fb191df4-267d-4797-80dd-be346b8eeb99))
   (gr_line locked (start 0 0) (end 0 -57.785) (layer "Eco1.User") (width 0.15) (tstamp 00000000-0000-0000-0000-00006086eb2e))
   (gr_circle locked (center -35.813999 -48.894999) (end -34.713999 -48.894999) (layer "Eco1.User") (width 0.2) (fill none) (tstamp 18cf1537-83e6-4374-a277-6e3e21479ab0))
+  (gr_arc (start -38.575 -57.50595) (mid -37.842767 -59.273717) (end -36.075 -60.00595) (layer "Eco1.User") (width 0.2) (tstamp 1bd13fbe-d376-42a1-8a94-f12442f4121a))
+  (gr_circle (center 35.814 -48.895) (end 36.814 -48.895) (layer "Eco1.User") (width 0.2) (fill none) (tstamp 293bc8e1-4ff1-450d-8ef0-4276b77002bf))
+  (gr_line (start -38.575 -57.50595) (end -38.575 -40.125) (layer "Eco1.User") (width 0.2) (tstamp 2ad27911-6b4b-41d3-af19-3a88d479912c))
+  (gr_line (start 38.575 -40.125) (end 38.575 -57.50595) (layer "Eco1.User") (width 0.2) (tstamp 3eb6166e-d2a4-4778-a9e3-fd9ea19f972e))
+  (gr_arc (start 38.575 -40.125) (mid 38.13566 -39.06434) (end 37.075 -38.625) (layer "Eco1.User") (width 0.2) (tstamp 54c2b029-df21-4268-9a74-8433670031c7))
+  (gr_arc (start -37.075 -38.625) (mid -38.13566 -39.06434) (end -38.575 -40.125) (layer "Eco1.User") (width 0.2) (tstamp 6dda73be-73a3-4bdf-aea3-f2d520a51491))
+  (gr_circle (center -35.814 -48.895) (end -34.814 -48.895) (layer "Eco1.User") (width 0.2) (fill none) (tstamp 7b7fe22f-5db7-4fb0-a6e2-91b9a8e5f484))
+  (gr_line (start -37.075 -38.625) (end 37.075 -38.625) (layer "Eco1.User") (width 0.2) (tstamp 825e7db8-0294-426e-853c-3be31e57f559))
   (gr_circle locked (center -35.813999 -48.894999) (end -33.313999 -48.894999) (layer "Eco1.User") (width 0.2) (fill none) (tstamp a6c7f556-10bb-4a6d-b61b-a732ec6fa5cc))
+  (gr_line (start 36.075 -60.00595) (end -36.075 -60.00595) (layer "Eco1.User") (width 0.2) (tstamp a6e79250-4ea1-4a1f-b168-c1d347acb43a))
+  (gr_arc (start 36.075 -60.00595) (mid 37.842767 -59.273717) (end 38.575 -57.50595) (layer "Eco1.User") (width 0.2) (tstamp c36f7147-bc6f-4cbe-8b56-617ae1aaead3))
   (gr_circle locked (center 35.814 -48.894999) (end 36.914 -48.894999) (layer "Eco1.User") (width 0.2) (fill none) (tstamp c8072c34-0f81-4552-9fbe-4bfe60c53e21))
   (gr_circle locked (center 35.814 -48.894999) (end 38.314 -48.894999) (layer "Eco1.User") (width 0.2) (fill none) (tstamp fec6f717-d723-4676-89ef-8ea691e209c2))
   (gr_arc (start 38.575 55.12485) (mid 37.842767 56.892617) (end 36.075 57.62485) (layer "Edge.Cuts") (width 0.2) (tstamp 16d5bf81-590a-4149-97e0-64f3b3ad6f52))
@@ -6757,4 +6767,18 @@
   (arc (start -22.33859 -48.19759) (mid -21.543753 -47.666496) (end -20.606178 -47.480001) (width 0.25) (layer "B.Cu") (net 49) (tstamp 48f764af-5151-47e3-a6cf-71fa017bac7f))
   (arc (start -14.509214 -46.894214) (mid -15.158061 -47.32776) (end -15.923428 -47.480001) (width 0.25) (layer "B.Cu") (net 49) (tstamp 4b198400-91ba-4dcd-8fa0-7f691b0ce663))
 
+  (group "" (id 778130e2-5dcf-4ba4-bd77-4acc3a461105)
+    (members
+      1bd13fbe-d376-42a1-8a94-f12442f4121a
+      293bc8e1-4ff1-450d-8ef0-4276b77002bf
+      2ad27911-6b4b-41d3-af19-3a88d479912c
+      3eb6166e-d2a4-4778-a9e3-fd9ea19f972e
+      54c2b029-df21-4268-9a74-8433670031c7
+      6dda73be-73a3-4bdf-aea3-f2d520a51491
+      7b7fe22f-5db7-4fb0-a6e2-91b9a8e5f484
+      825e7db8-0294-426e-853c-3be31e57f559
+      a6e79250-4ea1-4a1f-b168-c1d347acb43a
+      c36f7147-bc6f-4cbe-8b56-617ae1aaead3
+    )
+  )
 )
