@@ -44,10 +44,10 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x0000000_7fffffff)
+      (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
-      (usegerberattributes false)
+      (usegerberattributes true)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (svguseinch false)
@@ -70,11 +70,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk true)
-      (outputformat 3)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "output/asset/")
+      (outputdirectory "output/")
     )
   )
 
@@ -6169,6 +6169,9 @@
   (gr_line (start 38.575 -57.505949) (end 38.575 55.12485) (layer "Edge.Cuts") (width 0.2) (tstamp 90fa0465-7fe5-474b-8e7c-9f955c02a0f6))
   (gr_line (start 36.075 57.62485) (end -36.075 57.62485) (layer "Edge.Cuts") (width 0.2) (tstamp a10b569c-d672-485d-9c05-2cb4795deeca))
   (gr_line (start -38.575 55.12485) (end -38.575 -57.50595) (layer "Edge.Cuts") (width 0.2) (tstamp a6891c49-3648-41ce-811e-fccb4c4653af))
+  (gr_text "Designed by\nRobin L.\nToronto, CA\n2022" (at 0 0.508) (layer "F.Cu") (tstamp 653e74f0-0a40-4ab5-8f5c-787bbaf1d723)
+    (effects (font (size 1 1) (thickness 0.175)))
+  )
   (gr_text "1" (at -28.575 33.02) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-000060824928)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
@@ -6221,9 +6224,6 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "RESET" (at 29.845 -53.34) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00006166eab7)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "Designed by Robin L.\nToronto, CA\n2022" (at 0 36.83) (layer "F.SilkS") (tstamp 653e74f0-0a40-4ab5-8f5c-787bbaf1d723)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "BOOT" (at -30.353 -53.34) (layer "F.SilkS") (tstamp b24c67bf-acb7-486e-9d7b-fb513b8c7fc6)
@@ -6757,11 +6757,4 @@
   (arc (start -22.33859 -48.19759) (mid -21.543753 -47.666496) (end -20.606178 -47.480001) (width 0.25) (layer "B.Cu") (net 49) (tstamp 48f764af-5151-47e3-a6cf-71fa017bac7f))
   (arc (start -14.509214 -46.894214) (mid -15.158061 -47.32776) (end -15.923428 -47.480001) (width 0.25) (layer "B.Cu") (net 49) (tstamp 4b198400-91ba-4dcd-8fa0-7f691b0ce663))
 
-  (group "" (id be472ca7-b8a4-459b-a50d-013d0872b731)
-    (members
-      1dbf0cf3-31e7-4971-b6e1-306c5a37f8a4
-      5a8dd070-c79c-4cc5-9b6f-11744beb8f89
-      837653f8-8dcf-4f23-931f-4f4240a80622
-    )
-  )
 )
