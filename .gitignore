@@ -30,4 +30,5 @@ _autosave-*
 design-ref/
 *bak
 */export*
+*/output*
 firmware/
