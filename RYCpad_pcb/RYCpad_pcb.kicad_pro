@@ -384,7 +384,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "output/asset/RYCpad_pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -2838,8 +2838,8 @@
   (gr_arc (start 36.075 -60.00595) (mid 37.842767 -59.273717) (end 38.575 -57.50595) (layer "Edge.Cuts") (width 0.2) (tstamp 592f25e6-a01b-47fd-8172-3da01117d00a))
   (gr_arc (start -36.075 57.62485) (mid -37.842767 56.892617) (end -38.575 55.12485) (layer "Edge.Cuts") (width 0.2) (tstamp c09938fd-06b9-4771-9f63-2311626243b3))
   (gr_line (start 38.575 -57.50595) (end 38.575 55.12485) (layer "Edge.Cuts") (width 0.2) (tstamp cb614b23-9af3-4aec-bed8-c1374e001510))
-  (gr_text "RYCpad rear pcb\nDesigned by Robin L.\nToronto, CA 2022" (at 0 3.5) (layer "F.SilkS") (tstamp 3cfcbcc7-4f45-46ab-82a8-c414c7972161)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "RYCpad rear pcb\nDesigned by Robin L.\nToronto, CA 2022\nv1.0" (at 0 3.5) (layer "F.SilkS") (tstamp 3cfcbcc7-4f45-46ab-82a8-c414c7972161)
+    (effects (font (size 1 1) (thickness 0.2)))
   )
 
   (group "" (id 5487601b-81d3-4c70-8f3d-cf9df9c63302)
