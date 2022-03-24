@@ -13,8 +13,7 @@ The `.dxf` file for laser-cutting an acrylic cover for the components can be fou
 
 A plate "PCB" is provided, but the `.dxf` can also be found in `doc/` for those who want to make it from a different material.
 
-<img src="img/RYCpad_plate.png" alt="drawing" width="250"/>
-
+<img src="img/RYCpad_plate.png" alt="drawing" width="250"/>\
 **RYCpad plate "PCB"**
 
 The indicator LED is controlled using [QMK's backlight feature](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_backlight.md), which enables hardware PWM dimming in case you find the LED too bright.
