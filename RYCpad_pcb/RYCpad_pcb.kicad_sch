@@ -1859,7 +1859,8 @@
     (uuid fcaf4944-16d9-4b00-b290-a7aa3f417956)
   )
 
-  (text "LED Note:\nLTL-4221N or similar" (at 246.38 84.455 0)
+  (text "LED Note:\nLTL-4221N (red)\nLTL-4231N (green)\nor similar"
+    (at 249.555 88.265 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0356f26d-fd14-4b2b-8f1c-3127e99201df)
   )
@@ -2970,7 +2971,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060876288)
     (property "Reference" "R7" (id 0) (at 229.87 81.28 90))
-    (property "Value" "1k" (id 1) (at 229.87 83.82 90))
+    (property "Value" "330" (id 1) (at 229.87 83.82 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (id 2) (at 229.87 82.042 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3602,7 +3603,7 @@
       (reference "R6") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060876288"
-      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+      (reference "R7") (unit 1) (value "330") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608b5d4f"
       (reference "SW1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_PUSH_6mm")
