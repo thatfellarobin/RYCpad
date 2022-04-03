@@ -6,7 +6,7 @@
 
 RYCpad (pronounced "ricey pad") is a custom mechanical keyboard numpad with through-hole components. It follows my other project [Axon](https://github.com/thatfellarobin/axon) in its emphasis on symmetric layout. RYCpad runs on an ATmega328P using VUSB and QMK.
 
-RYCpad is designed to be printed with a black substrate PCB and clear solder mask, such as [OSHpark's After Dark service](https://docs.oshpark.com/services/afterdark/). There are no ground planes, allowing the traces to stand out. The plate and bottom PCB have windows in the solder mask, so they can be fabbed at cheaper PCB manufacturers but still have the exposed copper look.
+RYCpad is designed to be printed with a black substrate PCB and clear solder mask, such as [OSHpark's After Dark service](https://docs.oshpark.com/services/afterdark/). There are no ground planes, allowing the traces to stand out. The plate and bottom PCB have windows in the solder mask to achieve a similar effect without the need for transparent solder mask.
 
 ### Resources and Config
 The `.svg` file for laser-cutting an acrylic cover for the components can be found in `doc/`. For other materials, a `.dxf` is provided.
