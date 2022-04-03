@@ -11,10 +11,10 @@ RYCpad is designed to be printed with a black substrate PCB and clear solder mas
 ### Resources and Config
 The `.dxf` file for laser-cutting an acrylic cover for the components can be found in `doc/`. It will work fine as-is, but for best results the lines should be offset to account for the kerf of the specific laser being used. In my experience, an offset of 0.15 mm may be appropriate.
 
-A plate "PCB" is provided, but the `.dxf` can also be found in `doc/` for those who want to make it from a different material.
+A switch plate "PCB" is provided, but the `.dxf` can also be found in `doc/` for those who want to make it from a different material. Likewise, a rear plate "PCB" is also provided, but an `.svg` is provided for laser-cut applications. Green lines are cut lines, and blue regions are for engraving. The rear plate is intended to be produced using transparent acrylic, to show the PCB. The cut line accounts for a laser kerf of 0.2mm, which is the approximate kerf for 3mm acrylic.
 
 <img src="img/RYCpad_plate.png" alt="drawing" width="250"/>\
-**RYCpad plate "PCB"**
+**RYCpad switch plate "PCB"**
 
 The indicator LED is controlled using [QMK's backlight feature](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_backlight.md), which enables hardware PWM dimming in case you find the LED too bright.
 
