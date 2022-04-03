@@ -9,9 +9,13 @@ RYCpad (pronounced "ricey pad") is a custom mechanical keyboard numpad with thro
 RYCpad is designed to be printed with a black substrate PCB and clear solder mask, such as [OSHpark's After Dark service](https://docs.oshpark.com/services/afterdark/). There are no ground planes, allowing the traces to stand out. The plate and bottom PCB have windows in the solder mask, so they can be fabbed at cheaper PCB manufacturers but still have the exposed copper look.
 
 ### Resources and Config
-The `.dxf` file for laser-cutting an acrylic cover for the components can be found in `doc/`. It will work fine as-is, but for best results the lines should be offset to account for the kerf of the specific laser being used. In my experience, an offset of 0.15 mm may be appropriate.
+The `.svg` file for laser-cutting an acrylic cover for the components can be found in `doc/`. For other materials, a `.dxf` is provided.
 
-A switch plate "PCB" is provided, but the `.dxf` can also be found in `doc/` for those who want to make it from a different material. Likewise, a rear plate "PCB" is also provided, but an `.svg` is provided for laser-cut applications. Green lines are cut lines, and blue regions are for engraving. The rear plate is intended to be produced using transparent acrylic, to show the PCB. The cut line accounts for a laser kerf of 0.2mm, which is the approximate kerf for 3mm acrylic.
+The `.svg` file for laser-cutting an acrylic rear plate is also provided in `doc/`. The rear plate is intended to be produced using transparent acrylic, to show off the main PCB. However, a rear plate "PCB" is provided.
+
+A switch plate "PCB" is provided, but a `.dxf` can also be found in `doc/` for those who want to make it from a different material.
+
+⚡⚠️ **Note:** `.svg` files account for a laser kerf of 0.2 mm, but the `.dxf` files do not account for any kerf. `.svg` files use green for cut lines, and blue for engraving.
 
 <img src="img/RYCpad_plate.png" alt="drawing" width="250"/>\
 **RYCpad switch plate "PCB"**
